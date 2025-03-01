@@ -1,4 +1,0 @@
-streamlit
-pymupdf
-python-docx
-fitz
