@@ -54,7 +54,6 @@ def extract_section(text, section):
     return "Invalid section selected."
 
 # Streamlit UI
-st.title("NinjaGist 🥷⚡ – Your AI-Powered Summarization Sensei!")
 st.markdown("<h1 style='text-align: center;'>📝 GistNinja 🥷 - Cutting Through Text Like a Pro! 🤖📄</h1>", unsafe_allow_html=True)
 
 # File Uploader (PDF, DOCX, TXT)
