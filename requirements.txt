@@ -1,0 +1,8 @@
+streamlit
+pymupdf
+python-docx
+transformers
+torch
+scipy
+numpy
+pandas
