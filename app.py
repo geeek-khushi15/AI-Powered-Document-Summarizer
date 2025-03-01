@@ -54,7 +54,8 @@ def extract_section(text, section):
     return "Invalid section selected."
 
 # Streamlit UI
-st.title("📄 Resume Section Extractor")
+st.title("NinjaGist 🥷⚡ – Your AI-Powered Summarization Sensei!")
+st.markdown("<h1 style='text-align: center;'>📝 GistNinja 🥷 - Cutting Through Text Like a Pro! 🤖📄</h1>", unsafe_allow_html=True)
 
 # File Uploader (PDF, DOCX, TXT)
 uploaded_file = st.file_uploader("Upload Your Resume (PDF, DOCX, TXT)", type=["pdf", "docx", "txt"])
@@ -89,3 +90,6 @@ if uploaded_file:
             file_name=f"{section}_summary.txt",
             mime="text/plain"
         )
+# Footer
+st.markdown("---")
+st.markdown("<p style='text-align:center;'>🚀 Powered by Khushi & GistNinja 🥷</p>", unsafe_allow_html=True)
